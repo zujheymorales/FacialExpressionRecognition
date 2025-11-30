@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# General
+.DS_Store
+*.log
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+# Dataset
+/data/
+*.csv
+*.tsv
+*.parquet
+# Ignore specific dataset path
+data/fer/images/images/
+
